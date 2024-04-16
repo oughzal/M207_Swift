@@ -1,0 +1,17 @@
+-- Active: 1679664683384@@127.0.0.1@3306@northwind
+
+SELECT DISTINCT country FROM Customer;
+
+-- GROUP BY
+SELECT COUNT(custId), Country
+FROM Customer
+GROUP BY Country;
+
+
+SELECT CAST(150 AS CHAR); 
+
+SELECT CAST("2017-08-29" AS DATE) as 'date';
+
+SELECT CURRENT_DATE(); 
+
+SELECT CAST(CURRENT_DATE() + 1 as DATE); 
